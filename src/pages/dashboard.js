@@ -1,19 +1,14 @@
 import Link from 'next/link'
 import MenuBar from '../components/menu-bar';
+import SearchBar from '../components/searchBar';
+import ProfilePicture from '../components/profilePicture';
+import Login from '../components/login';
 import '../styles/globals.css'; 
 
 
 const dashboard = () => (
-    <div>
-        < MenuBar/>
-        <h1>
-            dashboard
-
-        </h1>
-            <Link legacyBehavior  href='/home'>
-            <a>home</a>
-            </Link>
-        
+    <div> 
+        <Login/>
     </div>
 )
 
